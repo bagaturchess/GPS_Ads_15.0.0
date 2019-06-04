@@ -4,6 +4,9 @@ https://maven.google.com/com/google/android/gms/play-services-ads/17.2.1/play-se
 
 It is old style eclipse library project which packs all the necessary libraries into the libs folder, so there is no need to download and setup aditional dependencies. You don't need Gradle or Maven to build and use it.
 
+The project was created by a lot of manual work - merging of different android archives, their classes and resources.
+I hope it will be helpful for somebody. If you like the project, please give it a star.
+
 ## How to use it
 
 1. Download the project
