@@ -4,10 +4,6 @@ https://maven.google.com/com/google/android/gms/play-services-ads/17.2.1/play-se
 
 It is old style eclipse library project which packs all the necessary libraries into the libs folder, so there is no need to download and setup aditional dependencies. You don't need Gradle or Maven to build and use it.
 
-## Requires
-
-Android 9 (API level 28) SDK Platform
-
 ## How to use it
 
 1. Download the project
