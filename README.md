@@ -21,12 +21,16 @@ It supports banner and interstitial ads, represented by the following classes:
 3. Put a reference to the android-google-play-services-ads project from your Eclipse application project
 4. Call MobileAds.initialize(this, "YOUR_ADMOB_APP_ID") in your Application onCreate method
 5. Import interstitial activity in your AndroidManifest.xml:
+
 activity android:name="com.google.android.gms.ads.AdActivity"
      android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
      android:exported="false"
      android:theme="@android:style/Theme.Translucent"
 6. Implement your ads functionality using the com.google.android.gms.ads.AdView and com.google.android.gms.ads.InterstitialAd in your code
 7. Run it
+
+## References
+https://firebase.google.com/docs/admob/android/quick-start
 
 ## About
 I hope it will be helpful for somebody. If you like the project, please give it a star.
