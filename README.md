@@ -10,7 +10,7 @@ I hope it will be helpful for somebody. If you like the project, please give it 
 ## How to use it
 
 1. Download the project
-2. Rename the project folder to GPS_Ads_17.2.1
+2. Rename the project folder to GPS_Ads_17.2.1 and import it to the Eclipse
 3. Put reference to the project from your Eclipse application project
-4. Remove android-support-v4.jar from the libs folder of your Eclipse application project
+4. Remove android-support-v4.jar (if exists) from the libs folder of your Eclipse application project
 5. Run it
