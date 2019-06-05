@@ -1,4 +1,4 @@
-# Android Google Play Services Ads version 17.2.1
+# Android Google Play Services Ads version 15.0.0
 Eclipse library projects based on the android google-play-services-ads 15.0.0 AAR release:
 https://maven.google.com/com/google/android/gms/play-services-ads/15.0.0/play-services-ads-15.0.0.aar
 
