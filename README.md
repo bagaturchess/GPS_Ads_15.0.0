@@ -6,19 +6,20 @@ It is old style eclipse library projects, which packs all the necessary librarie
 
 The project is based on the work of https://github.com/dandar3/android-google-play-services-ads but the difference is that it packs all needed dependencies for working with Ads in one single git repository.
 It supports banner and interstitial ads, represented by the following classes:
-1. 
-2. com.google.android.gms.ads.AdListener
-3. com.google.android.gms.ads.AdRequest
-4. com.google.android.gms.ads.AdSize
-5. com.google.android.gms.ads.AdView
-6. com.google.android.gms.ads.InterstitialAd
+
+1. com.google.android.gms.ads.MobileAds
+2. com.google.android.gms.ads.AdView
+3. com.google.android.gms.ads.InterstitialAd
+4. com.google.android.gms.ads.AdListener
+5. com.google.android.gms.ads.AdRequest
+6. com.google.android.gms.ads.AdSize
 
 ## How to use it
 
-1. Download the project
-2. Rename the project folder to GPS_Ads_17.2.1 and import it to the Eclipse workspace
-3. Put reference to the project from your Eclipse application project
-4. Remove android-support-v4.jar (if exists) from the libs folder of your Eclipse application project in order to remove the duplicated classes
+1. Download the distribution and extract the projects into your Eclipse workspace
+2. Import the projects in Eclipse as existing library projects
+3. Put a reference to the android-google-play-services-ads project from your Eclipse application project
+4. Call MobileAds.initialize(this, "YOUR_ADMOB_APP_ID") in your Application onCreate method
 5. Import interstitial activity in your AndroidManifest.xml:
 activity android:name="com.google.android.gms.ads.AdActivity"
      android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
