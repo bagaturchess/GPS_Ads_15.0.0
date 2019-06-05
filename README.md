@@ -23,6 +23,8 @@ activity android:name="com.google.android.gms.ads.AdActivity"
      android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
      android:exported="false"
      android:theme="@android:style/Theme.Translucent"
+6. Use com.google.android.gms.ads.AdView and com.google.android.gms.ads.InterstitialAd in your code
+7. Run it
 
-## Credits
+## About
 I hope it will be helpful for somebody. If you like the project, please give it a star.
