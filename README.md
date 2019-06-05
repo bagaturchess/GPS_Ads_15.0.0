@@ -2,7 +2,7 @@
 Eclipse library projects based on the android google-play-services-ads 15.0.0 AAR release:
 https://maven.google.com/com/google/android/gms/play-services-ads/15.0.0/play-services-ads-15.0.0.aar
 
-It is old style eclipse library projects, which packs all the necessary libraries to run Google Mobile Ads, so there is no need to download and setup aditional dependencies. You don't need Gradle or Maven to build and use it.
+It is old style eclipse library projects, which pack all the necessary libraries to run Google Mobile Ads, so there is no need to download and setup aditional dependencies. You don't need Gradle or Maven to build and use it.
 
 The project is based on the work of https://github.com/dandar3/android-google-play-services-ads but the difference is that it packs all needed dependencies for working with Ads in one single git repository.
 It supports banner and interstitial ads, represented by the following classes:
