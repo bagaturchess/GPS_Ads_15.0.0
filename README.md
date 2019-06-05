@@ -19,10 +19,10 @@ The R.class files are not presented for now so only limited functionality is ava
 3. Put reference to the project from your Eclipse application project
 4. Remove android-support-v4.jar (if exists) from the libs folder of your Eclipse application project in order to remove the duplicated classes
 5. Import interstitial activity in your AndroidManifest.xml:
-<activity android:name="com.google.android.gms.ads.AdActivity"
+activity android:name="com.google.android.gms.ads.AdActivity"
      android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
      android:exported="false"
-     android:theme="@android:style/Theme.Translucent" />
+     android:theme="@android:style/Theme.Translucent"
 
 ## Credits
 I hope it will be helpful for somebody. If you like the project, please give it a star.
