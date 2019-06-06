@@ -16,7 +16,7 @@ It supports banner and interstitial ads, represented by the following classes:
 
 ## How to use it
 
-1. Download the distribution and extract the projects into your Eclipse workspace
+1. Download the distribution and extract the projects on the file system
 2. Import the projects in Eclipse as existing library projects
 3. Put a reference to the android-google-play-services-ads project from your Eclipse application project
 4. Call MobileAds.initialize(this, "YOUR_ADMOB_APP_ID") in your Application onCreate method
